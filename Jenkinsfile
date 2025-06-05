@@ -30,7 +30,7 @@ sh 'java -jar target/MavenJenkins-1.0-SNAPSHOT.jar'
 }
 }
 }
-}
+
 
 post{
 success{
@@ -38,5 +38,6 @@ echo 'success build'
 }
 failure{
 echo 'build failure'
+}
 }
 }
