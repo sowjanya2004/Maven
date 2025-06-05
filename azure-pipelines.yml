@@ -14,5 +14,5 @@ steps:
   displayName: 'run a one-line script'
 - script: mvn clean install
   displayName: 'build with maven'
-- script: java - jar target/MavenJenkins-1.0-SNAPSHOT.jar
+- script: java -jar target/MavenJenkins-1.0-SNAPSHOT.jar
   displayName: 'running jar file'
